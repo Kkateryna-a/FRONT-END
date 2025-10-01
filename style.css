@@ -1,4 +1,4 @@
-/* Варіант 7 -> nn = 07 */
+/* Варіант 27  */
 .row1 {
   background-color: #278f8f; 
   color: #FA8345;             
@@ -12,7 +12,7 @@
   color: black;             
 }
 
-/* Hover (навели мишку – кольори міняються місцями) */
+
 .row1:hover {
   background-color: #f5f527;
   color: #278f8f;
