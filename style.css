@@ -1,0 +1,87 @@
+/* Варіант 7 -> nn = 07 */
+.row1 {
+  background-color: #278f8f; 
+  color: #FA8345;             
+}
+.row2 {
+  background-color: #f5f527;  
+  color: #0707f5;
+}
+.row3, .row4 {
+  background-color: white;  
+  color: black;             
+}
+
+/* Hover (навели мишку – кольори міняються місцями) */
+.row1:hover {
+  background-color: #f5f527;
+  color: #278f8f;
+}
+.row2:hover {
+  background-color: #278f8f;
+  color: #f5f527;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  height: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+td {
+  height: 20px;
+  width: 60px;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+
+
+/* Годинник */
+.clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #e0e0e0;
+  border-radius: 25px;
+  border: 3px solid black;
+  margin: 20px;
+
+}
+
+/* Червоні точки */
+.dot {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid black;
+}
+
+.top { top: 5px; left: 50%; transform: translateX(-50%); }
+.right { right: 5px; top: 50%; transform: translateY(-50%); }
+.bottom { bottom: 5px; left: 50%; transform: translateX(-50%); }
+.left { left: 5px; top: 50%; transform: translateY(-50%); }
+
+/* Стрілки */
+.hand {
+  position: absolute;
+  background: black;
+  left: 50%;
+  top: 50%;
+  transform-origin: bottom center;
+}
+
+.hour {
+  width: 8px;
+  height: 80px;
+  transform: translateX(-50%) translateY(-100%) rotate(0deg); 
+}
+
+.minute {
+  width: 8px;
+  height: 60px;
+  transform: translateX(-50%) translateY(-100%) rotate(90deg);
+}
